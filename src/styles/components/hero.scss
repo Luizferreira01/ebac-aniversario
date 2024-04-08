@@ -3,7 +3,7 @@
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../image/aniversario.jpg);
+    background-image: url(/image/aniversario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -14,7 +14,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: variables.$textColor;
+        background-color: variables.$secondaryTextColor;
         content: '';
         opacity: .2;
     }
@@ -31,14 +31,14 @@
 
     &__logo {
         margin: 0 auto;
-        height: 300px;
+        height: 80px;
         display: block;
     }
 
-    @media (max-width: 640px ) {
+    @media (max-width: 640px) {
         padding: 40px 0;
 
-        &__logo{
+        &__logo {
             height: 40px;
         }
 
